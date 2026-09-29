@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "orbit-tabs-api2",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-09-01",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "orbit-tabs-db","database_id": "4cd66309-afa9-4b3a-8f20-4adb18f46a42"
+    }
+  ]
+}
